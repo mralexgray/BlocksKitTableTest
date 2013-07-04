@@ -7,3 +7,5 @@
 #ifdef __OBJC__
 	#import <Cocoa/Cocoa.h>
 #endif
+#define logObject(_X_)	printf("%s\t=\t%s\n\n", #_X_,[_X_ description].UTF8String)
+
